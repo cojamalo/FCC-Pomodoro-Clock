@@ -1,0 +1,55 @@
+<head>
+<link rel="stylesheet" href="./style.css">
+<script src="./main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+</head>
+
+<div class="clock-area">
+  
+  <div class= "clock-wrap">
+    <div class="title">Pomodoro Clock</div>
+    <form name="pointform" method="post">
+      
+      <div class="timer-wrap">
+        <div id="zero"></div>
+        <div id="five"></div>
+        <div id="ten"></div>
+        <div id="fifteen"></div>
+        <div id="twenty"></div>
+        <div id="twenty-five"></div>
+        <div id="thirty"></div>
+        <div id="thirty-five"></div>
+        <div id="fourty"></div>
+        <div id="fourty-five"></div>
+        <div id="fifty"></div>
+        <div id="fifty-five"></div>
+      <div class="timer" id="pointer_div" onclick="point_it(event)">
+        <svg class="rotate" viewbox="0 0 250 250">
+          <path id="loader" transform="translate(125, 125)"/>
+        </svg>
+      </div>
+       
+      
+      <div class="mask">
+        <div class="row btn-row">
+        <!--<div class="btn" id="less"><i class="fa fa-minus"></i></div>-->
+        <div class="btn control">Begin</i></div>
+        <!--<div class="btn" id="more"><i class="fa fa-plus"></i></div>-->
+        </div>
+        <div class="row sess-row">
+          <div>Session Length</div>
+        </div>
+        <div class="row read-row">
+          <div id="readout">0 mins, 0 secs</div>
+        </div>
+        
+      </div>  
+    <img src="https://s3.amazonaws.com/cojamalo/pomodoro/clockface-1.png" class="clock-face"/>
+      
+    </form>
+  </div>
+</div>
+<div class="center-align" id="footer">Project coded by Connor Lenio &copy2016. Coordinates from click adapted from work by Emanuele Feronato. SVG pie timer adapted from work by Anders Grimsrud.</div>
+
+
+ 

@@ -5,4 +5,4 @@ This is the repository for my completion of the freeCodeCamp "Build a Pomodoro C
 
 A working version is at https://codepen.io/cojamalo/pen/PbmgLO.
 
-The project is an example of a Javascript timer using css animations. Project coded by Connor Lenio ©2016. Coordinates from click adapted from work by Emanuele Feronato. SVG pie timer adapted from work by Anders Grimsrud.
+The project is an example of a Javascript timer using css animations. Project coded by Connor Lenio - released into the public domain for educational purposes in 2016. Coordinates from click adapted from work by Emanuele Feronato. SVG pie timer adapted from work by Anders Grimsrud.
